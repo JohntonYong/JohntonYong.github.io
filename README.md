@@ -1,3 +1,3 @@
-# C++ Engineering Practices Guide HomePage
+# C++ Engineering Practices Guide Homepage
 
 
