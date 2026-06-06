@@ -45,7 +45,7 @@ export default hopeTheme({
     // You should generate and use your own comment service
     comment: {
       provider: "Giscus",
-      repo: "JohntonYong.github.io/",
+      repo: "JohntonYong/JohntonYong.github.io/",
       repoId: "R_kgDOKboWmQ",
       category: "Announcements",
       categoryId: "DIC_kwDOKboWmc4CZ_77",
