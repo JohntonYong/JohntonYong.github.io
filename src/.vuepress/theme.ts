@@ -12,7 +12,7 @@ export default hopeTheme({
     name: "JohntonYong",
     url: "https://cplusplus.icu",
   },
-  repo: "JohntonYong.github.io",
+  repo: "JohntonYong/JohntonYong.github.io",
   docsRepo: "JohntonYong/JohntonYong.github.io",
   docsDir: "src",
 
@@ -45,10 +45,10 @@ export default hopeTheme({
     // You should generate and use your own comment service
     comment: {
       provider: "Giscus",
-      repo: "JohntonYong/JohntonYong.github.io/",
-      repoId: "R_kgDOKboWmQ",
+      repo: "JohntonYong/JohntonYong.github.io",
+      repoId: "R_kgDOSuo2Tg",
       category: "Announcements",
-      categoryId: "DIC_kwDOKboWmc4CZ_77",
+      categoryId: "DIC_kwDOSuo2Ts4C-nKs",
     },
 
     // All features are enabled for demo, only preserve features you need here
