@@ -7,7 +7,7 @@ heroImage: /logo.png
 bgImageStyle:
   background-attachment: fixed
 heroText: C++工程化实践指南
-tagline: 一个基于IPCamera企业级工程化实践解决方案.
+tagline: 一个基于IPCamera企业级工程化解决方案实践.
 actions:
   - text: 如何使用💡
     link: ./tutorial/
@@ -18,7 +18,7 @@ actions:
 
 highlights:
   - header: 特性
-    description: 该项目是一个商用级安防行业音视频解决方案,其中包括移动嵌入式跨平台支持以及网络编程二次开发SDK.
+    description: 该项目是一个商用级安防行业音视频解决方案,其中包括跨平台支持以及网络编程二次开发SDK.
     image: /assets/image/features.svg
     bgImageStyle:
       background-repeat: repeat
@@ -26,11 +26,11 @@ highlights:
     features:
       - title: 支持多厂商
         icon: box-archive
-        details: 支持国内外主流厂商(海康/大华/宇视/华为/安讯视/博士/索尼等)
+        details: 支持国内外主流厂商(海康/大华/宇视/华为/科达/天地伟业/蛙视/安讯视/博士/索尼等)
 
       - title: 高并发与高性能
         icon: bolt
-        details: 采用多路复用/多线程/异步网络IO模型开发,提供卓越的并发性能,支持海量客户端连接.
+        details: 采用多路复用/多线程/异步网络IO模型开发,提供卓越的并发性能,支持海量设备接入和客户端连接.
 
       - title: 稳定可靠的生产环境使用
         icon: microscope
@@ -38,7 +38,7 @@ highlights:
 
       - title: 跨平台兼容性
         icon: linux
-        details: 支持包括Linux、macOS、iOS、Android和Windows在内的所有主要平台以及Kylin、UOS等国产化Linux Desktop平台.
+        details: 支持包括Linux、macOS、iOS、Android、Windows、Kylin、UOS等国产化Linux Desktop在内的所有主要平台.
 
       - title: 多指令集平台支持
         icon: microchip
@@ -46,11 +46,15 @@ highlights:
 
       - title: 极速启动和低延迟
         icon: truck-fast
-        details: 提供极速启动,极低延迟(在500毫秒以内,甚至可以低至100毫秒),提供优异的用户体验.
+        details: 提供极速启动,极低延迟,提供优异的用户体验.
 
-      - title: 用于集成的C API
+      - title: 用于集成的标准C API
         icon: code
-        details: 提供全面的标准C API,可用作SDK或被其他语言调用.
+        details: 提供全面的自研标准C API,可用作SDK或被其他语言调用.
+
+      - title: 自研标准协议SDK
+        icon: video
+        details: 国标协议STDgbSDK/ONVIF协议STDevSDK/RFC流媒体协议STDavSDK.
 
       - title: 完善的编解码器支持
         icon: box-open
