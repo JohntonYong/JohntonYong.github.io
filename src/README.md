@@ -26,7 +26,7 @@ highlights:
     features:
       - title: 支持多厂商
         icon: box-archive
-        details: 支持国内外主流厂商(海康/大华/宇视/华为/科达/天地伟业/蛙视/安讯视/博士/索尼等)
+        details: 支持国内外主流厂商IPC包括但不限于海康/大华/宇视/华为/科达/天地伟业/蛙视/安讯视/博士/索尼等.
 
       - title: 高并发与高性能
         icon: bolt
