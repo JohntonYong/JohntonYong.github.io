@@ -7,7 +7,7 @@ heroImage: /logo.png
 bgImageStyle:
   background-attachment: fixed
 heroText: C++工程化实践指南
-tagline: 一个基于IPCamera的企业级工程化实践方案.
+tagline: 一个基于IPCamera企业级工程化实践解决方案.
 actions:
   - text: 如何使用💡
     link: ./tutorial/
