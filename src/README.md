@@ -67,5 +67,5 @@ highlights:
 copyright: false
 footer:
   Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | MIT Licensed,
-  Copyright © 2019-present C++工程化实践指南
+  Copyright © 2026-present C++工程化实践指南
 ---
