@@ -1,0 +1,15 @@
+# Node modules
+**/node_modules/**
+
+# Vuepress Cache
+**/.vuepress/.cache/**
+# Vuepress Temp
+**/.vuepress/.temp/**
+# Vuepress Output
+**/.vuepress/dist/
+
+# npm config
+.npmrc
+
+# macOS
+.DS_Store
