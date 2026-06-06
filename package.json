@@ -1,7 +1,7 @@
 {
   "name": "guide_docs",
   "version": "1.0.0",
-  "description": "Official documentation for C++ Engineering Practices Guide",
+  "description": "Official documentation for Practical Guide to C++ Software Engineering",
   "license": "MIT",
   "type": "module",
   "scripts": {

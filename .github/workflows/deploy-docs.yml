@@ -35,6 +35,14 @@ jobs:
           pnpm run docs:build
           > src/.vuepress/dist/.nojekyll
 
+      - name: Copy CNAME
+        run: |
+          # 从 main 分支拉取 CNAME 文件到发布目录
+          git fetch origin main:CNAME-temp
+          git checkout CNAME-temp -- CNAME
+          # 移动到发布目录
+          mv CNAME src/.vuepress/dist/CNAME
+
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
