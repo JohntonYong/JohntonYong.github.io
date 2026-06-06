@@ -12,8 +12,8 @@ export default hopeTheme({
     name: "JohntonYong",
     url: "https://cplusplus.icu",
   },
-  repo: "JohntonYong/JohntonYong.github.io",
-  docsRepo: "JohntonYong.github.io/docs",
+  repo: "JohntonYong.github.io",
+  docsRepo: "JohntonYong/JohntonYong.github.io",
   docsDir: "src",
 
   navbarLayout: {
@@ -35,21 +35,21 @@ export default hopeTheme({
       displayFooter: true,
 
       // page meta
-      // metaLocales: {
-      //   editLink: "在 GitHub 上编辑此页",
-      // },
+      metaLocales: {
+        editLink: "在 GitHub 上编辑此页",
+      },
     },
   },
 
   plugins: {
     // You should generate and use your own comment service
-    // comment: {
-    //   provider: "Giscus",
-    //   repo: "JohntonYong.github.io/docs",
-    //   repoId: "R_kgDOKboWmQ",
-    //   category: "Announcements",
-    //   categoryId: "DIC_kwDOKboWmc4CZ_77",
-    // },
+    comment: {
+      provider: "Giscus",
+      repo: "JohntonYong.github.io/",
+      repoId: "R_kgDOKboWmQ",
+      category: "Announcements",
+      categoryId: "DIC_kwDOKboWmc4CZ_77",
+    },
 
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {
