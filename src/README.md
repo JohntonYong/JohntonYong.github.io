@@ -60,6 +60,10 @@ highlights:
         icon: box-open
         details: 全面支持H265/H264/AAC/G711/OPUS/.
 
+      - title: 持续扩展项目
+        icon: magnifying-glass
+        details: 包括但不限于点播/直播/会议/网络电话等领域.
+
 copyright: false
 footer:
   Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | MIT Licensed,
