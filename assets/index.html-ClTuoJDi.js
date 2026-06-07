@@ -1,1 +1,0 @@
-import{_ as a}from"./plugin-vue_export-helper-DlAUqK2U.js";import{c as t,a as r,b as n,o}from"./app-D3FS0hA7.js";const s={};function c(d,e){return o(),t("div",null,[...e[0]||(e[0]=[r("h1",{id:"快速开始",tabindex:"-1"},[r("a",{class:"header-anchor",href:"#快速开始","aria-hidden":"true"},"#"),n(" 快速开始")],-1)])])}const _=a(s,[["render",c],["__file","index.html.vue"]]);export{_ as default};
