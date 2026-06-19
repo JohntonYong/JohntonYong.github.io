@@ -28,10 +28,6 @@ highlights:
         icon: box-archive
         details: 支持国内外主流厂商IPC包括但不限于海康/大华/宇视/华为/科达/天地伟业/蛙视/安讯视/博士/索尼等.
 
-      - title: 高并发与高性能
-        icon: bolt
-        details: 采用多路复用/多线程/异步网络IO模型开发,提供卓越的并发性能,支持海量设备接入和客户端连接.
-
       - title: 稳定可靠的生产环境使用
         icon: microscope
         details: 代码经过广泛的稳定性和性能测试,在生产环境中得到广泛应用.
@@ -43,10 +39,6 @@ highlights:
       - title: 多指令集平台支持
         icon: microchip
         details: 支持多种指令集平台，如x86_64、aarch64、mipsel64、loongarch.
-
-      - title: 极速启动和低延迟
-        icon: truck-fast
-        details: 提供极速启动,极低延迟,提供优异的用户体验.
 
       - title: 用于集成的标准C API
         icon: code
