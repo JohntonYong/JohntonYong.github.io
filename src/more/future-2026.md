@@ -7,7 +7,7 @@ icon: circle-info
 
  2026年的春天，中国智能安防行业在政策红利与技术爆发的共振中迎来了历史性的拐点。2026年2月，作为“十五五”首个中央一号文件的《关于锚定农业农村现代化 扎实推进乡村全面振兴的意见》正式发布，明确提出“促进人工智能与农业发展相结合，拓展无人机、物联网、机器人等应用场景”，悄然推动了一场以数字化重塑基层与乡土安全的变革。
 
-![](https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/d47e6af58572cd4cea040dbe139df92cee1bff24/src/.vuepress/public/images/future_2026/1.webp)
+![](https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/49af35df28381e46528de8f2a02864932412b503/src/.vuepress/public/images/more/1.webp)
 
 资深研究机构《2026-2030年中国智能安防行业全景调研与发展战略研究咨询报告》分析认为同时，在2026年5月刚刚落幕的“世界无人机大会”上，“低空安防与AI融合感知”成为全场瞩目的焦点，宣告了立体化安防时代的全面到来。
 
@@ -31,7 +31,7 @@ icon: circle-info
 
 同时，国家五部委联合发布的《深化智慧城市发展推进全域数字化转型行动计划》，进一步将智能安防嵌入智慧城市与数字政府的底层架构中。政策导向已从单纯的“鼓励建设”转向“强调数据安全保障与隐私保护”，这要求企业在追求技术迭代的同时，必须将数据安全合规提升至企业战略的最高优先级。
 
-![](https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/d47e6af58572cd4cea040dbe139df92cee1bff24/src/.vuepress/public/images/future_2026/2.webp)
+![](https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/49af35df28381e46528de8f2a02864932412b503/src/.vuepress/public/images/more/2.webp)
 
 **二、 核心引擎：重构安防产业边界的“三驾马车”**
 
@@ -55,7 +55,7 @@ icon: circle-info
 
 随着低空经济连续写入政府工作报告，千米以下的低空空域成为中国经济最具想象力的增量赛道。
 
-![](https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/d47e6af58572cd4cea040dbe139df92cee1bff24/src/.vuepress/public/images/future_2026/3.webp)
+![](https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/49af35df28381e46528de8f2a02864932412b503/src/.vuepress/public/images/more/3.webp)
 
 据民航局及相关产业报告数据，2025年我国低空经济市场规模已突破1.5万亿元，民用无人机整机总产值达1761亿元。然而，万亿光环之下，“谁来看管这片天空”成为亟待解决的刚需。
 
@@ -79,7 +79,7 @@ icon: circle-info
 
 这释放出一个强烈信号：国际市场的准入门槛正从“硬件参数”向“全生命周期数据安全”转移。中国安防企业出海必须从单纯的“产品输出”向“合规体系与标准输出”升级，以应对日益严苛的国际数据安全审查。
 
-![](https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/d47e6af58572cd4cea040dbe139df92cee1bff24/src/.vuepress/public/images/future_2026/4.webp)
+![](https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/49af35df28381e46528de8f2a02864932412b503/src/.vuepress/public/images/more/4.webp)
 
 **四、 2026-2030年发展战略与投资决策建议**
 

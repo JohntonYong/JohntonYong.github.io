@@ -16,7 +16,7 @@ export const zhNavbar = navbar([
     prefix: "more/",
     children: [
       "contact",
-      "future_2026"
+      "future-2026"
     ],
   },
 ]);
