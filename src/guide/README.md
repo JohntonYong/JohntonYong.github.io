@@ -5,8 +5,6 @@ icon: terminal
 
 ## 一个基于IPCamera的商用级安防行业音视频解决方案
 
-### 大规模视频监控系统应用实例
-
 ![](https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/efae6c6fb6332aae0284888c17e20049e833ab3e/src/.vuepress/public/images/guide/1.jpg)
 
 ### 项目特点
@@ -25,7 +23,7 @@ icon: terminal
 - 提供企业或个人SDK定制开发服务
 - 提供企业或个人行业技术咨询服务
 
-### 未来展望
+### 开发路线
 
 持续聚焦于音视频领域的监控、点播、直播、会议，网络电话等产品开发实践。
 
