@@ -15,7 +15,8 @@ export const zhNavbar = navbar([
     icon: "laptop-code",
     prefix: "more/",
     children: [
-      "contact"
+      "contact",
+      "future_2026"
     ],
   },
 ]);
