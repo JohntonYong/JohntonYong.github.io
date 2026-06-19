@@ -29,4 +29,4 @@ icon: terminal
 
 持续聚焦于音视频领域的监控、点播、直播、会议，网络电话等产品开发实践。
 
-![](https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/efae6c6fb6332aae0284888c17e20049e833ab3e/src/.vuepress/public/images/guide/2.jpg)
+![](https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/fe3c96e41de90af6c1bf4a722f08fb6cb4f2603e/src/.vuepress/public/images/guide/2.jpg)
