@@ -1,307 +1,250 @@
 ---
-title: 相关标准
+title: 相关资源
 icon: font-awesome
 index: true
 ---
 
-## **关于GB/T 28181**
+## C\+\+工程化实践指南背景介绍
 
-[GB/T 28181](https://openstd.samr.gov.cn/bzgk/std/std_list?p.p1=0&p.p90=circulation_date&p.p91=desc&p.p2=GB/T%2028181) 全称为《公共安全视频监控联网系统信息传输、交换、控制技术要求》，是我国视频监控领域最重要的国家级通信标准。
+- 是一个帮助CPPer快速高效走上C/C\+\+软件开发之路的项目。
 
-该标准由中华人民共和国公安部提出。
-该标准由全国安全防范报警系统标准化技术委员会(SAC/TC100)归口。该标准起草单位:公安部第一研究所、视频图像信息智能分析与共享应用技术国家工程实验室、国家信息中心、杭州海康威视数字技术股份有限公司、浙江大华技术股份有限公司、浙江宇视科技有限公司、华为技术有限公司、中星微技术股份有限公司。
+- 本项目主要聚焦在音视频行业，分享的内容包括但不限于监控，直播，点播，会议，网络电话等企业级项目实践。
 
-------
+### 工程化基础工具
 
-### **标准定位**
+#### 编程基础
 
-该标准的核心目标是解决视频监控系统中**不同厂商设备无法互联、不同平台之间视频资源难以共享**的问题，为公共安全视频监控联网系统提供统一的信令控制和媒体传输规范，是实现视频监控系统互联互通的基础。
+- C和指针
 
-适用于公共安全视频监控联网系统的方案设计、系统检测、验收，以及与之相关的设备研发和生产。其他视频监控联网系统也可参照执行。
+- C\+\+ Primer
 
-### **版本演进**
+  ......
 
-| 版本            | 发布时间       | 实施时间     | 状态     |
-| --------------- | -------------- | ------------ | -------- |
-| GB/T 28181-2011 | 2011年         | 2011年       | 废止     |
-| GB/T 28181-2016 | 2016年7月12日  | 2016年8月1日 | 废止     |
-| GB/T 28181-2022 | 2022年12月30日 | 2023年7月1日 | 现行有效 |
+#### 编程进阶
 
+- 深度探索C\+\+对象模型
 
+- Unix环境高级编程
 
-## 关于ONVIF
+- Linux多线程服务端编程
 
-[ONVIF](https://www.onvif.org/)的使命是为基于IP的物理安全产品和服务的有效互操作性提供和促进标准化接口。
+- Linux高性能服务器编程
 
-ONVIF的基础是:
+  ......
 
-- 基于IP的物理安全产品和服务之间的通信标准化
-- 与品牌和部署无关的互操作性(内部部署、云、混合解决方案)
-- 对所有公司和组织开放
+#### 语言标准工具
 
-ONVIF由安讯士、博世安防和索尼于2008年创立，在全球六大洲拥有足够规模数量的会员基础，会员包括希望参与ONVIF活动的制造商、软件开发商、顾问公司、系统集成商、终端用户以及其他组织等。
+- [C/C\+\+ 标准库](https://en.cppreference.com/)
 
-**ONVIF一致性产品和Profiles协议文件**
+#### 代码阅读工具
 
-目前ONVIF成员共同提供超过3万多种符合一致性要求的产品。同时市场上已经安装与使用了数百万个符合ONVIF标准协议的产品，这些产品必须支持以下Profiles协议中的至少一种：
+- [Source Insight](https://www.sourceinsight.com/)
 
-- [Profile A](https://www.onvif.org/ch/profiles-specification/profile-a/) 广泛门禁控制协议标准
-- [Profile C](https://www.onvif.org/ch/profiles-specification/profile-c/) 基础门禁控制协议标准
-- [Profile D](https://www.onvif.org/ch/profiles-specification/profile-d/) 用于访问控制外设
-- [Profile G](https://www.onvif.org/ch/profiles-specification/profile-g/) 边缘存储/检索协议标准
-- [Profile M](https://www.onvif.org/ch/profiles-specification/profile-m/) 用于分析类应用程序的元数据和分析
-- [Profile S](https://www.onvif.org/ch/profiles-specification/profile-s/) 视频流协议标准
-- [Profile T](https://www.onvif.org/ch/profiles-specification/profile-t/) 高级视频流协议标准
+- [Visual Studio Code](https://code.visualstudio.com/)
 
-ONVIF将继续与其成员一起，致力于扩大高互操作性的网络解决方案覆盖面。
+#### 代码管理工具
 
-**与标准团队合作**
+- [git官网](https://git-scm.com/)
 
-ONVIF还与IEC（国际电工委员会）和CENLEC（欧洲电工标准化委员会）等全球标准组织合作，将ONVIF规范纳入它们的标准之中。ONVIF规范中均以Web Services的形式提供，通过诸如XML、SOAP和WSDL之类的开放标准来定义两个电子设备在IP网络上的通信。
+- [svn官网](https://tortoisesvn.net/)
 
-ONVIF门禁控制规范已被报警与电子安防系统及部件要求标准(IEC60839-11)所采用。此标准包含对记录、识别和控制信息的要求，适用于安防电子门禁应用的控制系统及部件。
+#### 代码构建工具
 
-ONVIF规范曾于早年被纳入IEC发布的视频监控系统标准(IEC62676标准)，该标准也是第一个针对视频监控系统的国际标准。IEC62676第2-3部分引用了基于Web服务的ONVIF视频规范，该规范定义了网络视频客户端和视频发送设备之间通信时需采用的视频传输协议。
+- [cmake官网](https://cmake.org/)
 
+#### 网络调试工具
 
+- [wireshark官网](https://www.wireshark.org/)
 
-## 三大国际信息通信标准组织简介
+#### API网络工具
 
-在全球信息通信（ICT）领域，最具影响力的三大标准化组织之一分别是：
+- [ApiPost官网](https://www.apipost.cn/)
 
-- [国际电信联盟](https://www.itu.int)（ITU，尤其是 ITU-T）
-- [国际标准化组织](https://www.iso.org)（ISO）
-- [互联网工程任务组](https://www.ietf.org)（IETF）
+- [ApiFox官网](https://apifox.com/)
 
-它们共同推动了互联网、通信网络、视频监控、人工智能、物联网等领域的标准化发展。
+#### 命令行工具
 
-### 1. ITU-T（国际电信联盟电信标准化部门）
+- [MobaxTerm官网](https://mobaxterm.mobatek.net/)
 
-#### 基本信息
+- [XSHELL官网](https://www.xshell.com/zh/xshell/)
 
-- 全称：International Telecommunication Union - Telecommunication Standardization Sector
-- 中文：国际电信联盟电信标准化部门
-- 隶属于：国际电信联盟
-- 成立时间：1865年（ITU前身）
-- 总部：日内瓦
-- 联合国专门机构
+#### 代码比较工具
 
-#### 主要职责
+- [Beyond Compare官网](https://www.scootersoftware.com/)
 
-负责全球电信网络和通信技术标准制定：
+#### 开源基础库
 
-- 固定电话网络
-- 移动通信网络
-- 光纤通信
-- 视频编码
-- 视频会议
-- IPTV
-- 网络安全
-- AI治理
+- [libuv](https://github.com/libuv/libuv.git)
+- [muduo](https://github.com/chenshuo/muduo.git)
+- [libhv](https://github.com/ithewei/libhv.git)
+- [evpp](https://github.com/Qihoo360/evpp.git)
+- [ZLToolKit](https://github.com/ZLMediaKit/ZLToolKit.git)
 
-#### 著名标准
+## GNU操作系统 
 
-| 标准         | 说明           |
-| ------------ | -------------- |
-| H.264        | 视频压缩编码   |
-| H.265 (HEVC) | 超高清视频编码 |
-| H.266 (VVC)  | 下一代视频编码 |
-| G.711        | PCM语音编码    |
-| G.729        | 语音压缩       |
-| X.509        | 数字证书体系   |
-| Y.3172       | AI网络框架     |
+[GNU 是一个类 Unix 操作系统](https://www.gnu.org/)。它是由多个应用程序、系统库、开发工具乃至游戏构成的程序集合。GNU 的开发始于 1984 年 1 月，称为 GNU 工程。GNU 的许多程序在 GNU 工程下发布；我们称之为 [GNU 软件包](https://www.gnu.org/software/)。
 
-#### 与视频监控行业关系
+“GNU”这个名字是“GNU's Not Unix”的递归首字母缩写词。"GNU"的发音为*g'noo*，只有一个音节，发音很像“grew”，但需要把其中的*r*音替换为*n*音。
 
-视频监控领域大量采用：
+类 Unix 操作系统中用于资源分配和硬件管理的程序称为 “内核”。GNU 所用的典型内核是 Linux。该组合叫做 [GNU/Linux 操作系统](https://www.gnu.org/gnu/linux-and-gnu.html)。GNU/Linux 为几百万用户所使用，然而许多人 [错误地称之为 "Linux](https://www.gnu.org/gnu/gnu-linux-faq.html)"。
 
-- H.264
-- H.265
-- RTP
-- RTSP
-- QoS标准
+GNU 自己的内核，[GNU Hurd](https://www.gnu.org/software/hurd/hurd.html)，开始于 1990 年（早于 Linux）。志愿者们仍在继续开发 Hurd，因为它是一个有趣的技术项目。
 
-海康、大华、宇视等厂商设备均遵循相关ITU-T视频编码标准。
+## GNU 编译链工具
 
-### 2. ISO（国际标准化组织）
+[linaro官网](https://www.linaro.org/)和[ARM交叉编译工具链](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads)
 
-#### 基本信息
+Linora作为交叉编译器工具链的代表，常被用于嵌入式系统的开发，特别是在ARM架构设备的程序编译场景中。
 
-- 全称：International Organization for Standardization
-- 中文：国际标准化组织
-- 成立时间：1947年
-- 总部：日内瓦
-- 成员国家：170多个
+[loongson官网](https://www.loongson.cn/)和[LoongArch交叉编译工具链](https://www.loongnix.cn/zh/toolchain/GNU/)
 
-#### 主要职责
+龙芯是中国自主研发的CPU企业，专注于高性能处理器设计与生态建设，[LoongArch™](https://www.loongson.cn/system/loongarch)：
 
-制定全球通用标准：
+Windows下的 [轻量级 Unix\-like 环境](https://www.msys2.org/),主要用于开发和运行Linux/Unix 软件，搭配mingw\-w64 GCC编译链使用，可将openssl和ffmpeg开源项目轻松编译出windows下的工具库。
 
-覆盖：
+## 中国开源镜像站
 
-- 工业制造
-- 软件工程
-- 信息安全
-- 人工智能
-- 质量管理
-- 医疗设备
-- 环境管理
+https://mirrors\.nju\.edu\.cn/gnu/
 
-#### 著名标准
+http://mirrors\.nju\.edu\.cn/gnu/
 
-| 标准          | 领域         |
-| ------------- | ------------ |
-| ISO 9001      | 质量管理     |
-| ISO 14001     | 环境管理     |
-| ISO/IEC 27001 | 信息安全     |
-| ISO/IEC 20000 | IT服务管理   |
-| ISO/IEC 12207 | 软件生命周期 |
-| ISO/IEC 25010 | 软件质量模型 |
-| ISO/IEC 42001 | AI管理体系   |
+https://mirrors\.nju\.edu\.cn/gnu\-alpha/
 
-#### 软件工程领域
+http://mirrors\.nju\.edu\.cn/gnu\-alpha/
 
-C++工程化实践常涉及：
+https://mirrors\.ustc\.edu\.cn/gnu/
 
-- ISO/IEC 12207
-- ISO/IEC 15504（SPICE）
-- ISO/IEC 25010
+http://mirrors\.ustc\.edu\.cn/gnu/
 
-这些标准规范：
+https://mirrors\.tuna\.tsinghua\.edu\.cn/gnu/
 
-- 需求管理
-- 设计
-- 编码
-- 测试
-- 运维
+## GNU/Linux系统
 
-### 3. IETF（互联网工程任务组）
+[Ubuntu](https://cn.ubuntu.com/)
 
-#### 基本信息
+[Centos](https://www.centos.org/)
 
-- 全称：Internet Engineering Task Force
-- 中文：互联网工程任务组
-- 成立时间：1986年
-- 组织性质：开放性国际技术社区
+[Loongnix](https://www.loongeco.cn/software/system)
 
-#### 特点
+## 音视频相关开源项目
 
-与ITU、ISO最大的不同：
+- 1992年opengl开源项目发布 https://www\.opengl\.org/
 
-- 完全开放
-- 任何人都可参与
-- 以工程实践驱动
-- 强调“Running Code”
+- 1996年gnu自由软件操作系统 https://www\.gnu\.org/
 
-著名理念：
+- 1998年sdl多媒体开源项目发布 https://www\.libsdl\.org/
 
-> Rough Consensus and Running Code
+- 1999年opencv开源项目发布 https://opencv\.org/
 
-（粗略共识与可运行代码）
+- 2001年 ffmpeg多媒体视频处理开源项目 https://ffmpeg\.org/
 
-------
+- 2001年gstreamer多媒体开源框架发布 https://gstreamer\.freedesktop\.org/
 
-#### RFC机制
+- 2002年live555开源项目发布 http://live555\.com/
 
-IETF标准以RFC形式发布：
+- 2004年nginx开源项目发布 https://nginx\.org/en/
 
-RFC（Request For Comments）
+- 2005年kamailio开源项目发布 https://www\.kamailio\.org/
 
-互联网世界几乎所有核心协议都来自RFC。
+- 2006年freeswitch开源电话软交换平台发布 https://signalwire\.com/freeswitch
 
-------
+- 2009年vlc播放器1\.0\.0 正式版发布 https://www\.videolan\.org/vlc/
 
-#### 著名标准
+- 2009年libyuv图像处理库开源项目发布 https://chromium\.googlesource\.com/libyuv/libyuv/
 
-| RFC      | 协议     |
-| -------- | -------- |
-| RFC 791  | IPv4     |
-| RFC 8200 | IPv6     |
-| RFC 2616 | HTTP/1.1 |
-| RFC 7540 | HTTP/2   |
-| RFC 9114 | HTTP/3   |
-| RFC 1035 | DNS      |
-| RFC 3261 | SIP      |
-| RFC 3550 | RTP      |
-| RFC 2326 | RTSP     |
-| RFC 8446 | TLS 1.3  |
+- 2009年 webrtc开源项目发布 国外镜像：https://webrtc\.org/?hl=zh\-cn
 
-------
+- 国内镜像：https://webrtc\.org\.cn/ 2013年 srs流媒体服务器发布版本
 
-#### 与视频监控关系
+- https://ossrs\.io/lts/zh\-cn/
 
-监控行业大量使用IETF协议：
+- 2013年 ijkplayer手机播放器发布 https://github\.com/bilibili/ijkplayer
 
-```
-摄像机
-   │
-RTSP
-   │
-RTP
-   │
-UDP/TCP
-   │
-IP网络
-```
+- 2014年 obs开源项目 https://obsproject\.com/
 
-典型协议：
+- 2015年 janus流媒体服务器发布版本 https://janus\.conf\.meetecho\.com/
 
-- RTP
-- RTCP
-- RTSP
-- SIP
-- HTTP
-- WebSocket
-- TLS
+- 2017年 zlmediakit流媒体服务器发布版本 https://docs\.zlmediakit\.com/
 
-例如：
+- 2019年 open webrtc toolkit https://github\.com/open\-webrtc\-toolkit
 
-- ONVIF使用SOAP/HTTP
-- GB28181使用SIP
-- WebRTC基于RTP/SRTP
+## 加密库开源项目
+- openssl 开源项目 https://www\.openssl\.org/
+- gmssl   开源项目 http://gmssl\.org/
 
-其底层均源于IETF标准。
+## 音视频编解码介绍
 
-## 三大组织对比
+### 基于CPU的软编解码
 
-| 项目     | ITU-T                  | ISO            | IETF             |
-| -------- | ---------------------- | -------------- | ---------------- |
-| 中文名称 | 国际电信联盟标准化部门 | 国际标准化组织 | 互联网工程任务组 |
-| 成立时间 | 1865                   | 1947           | 1986             |
-| 隶属关系 | 联合国                 | 独立国际组织   | 开放技术社区     |
-| 主要领域 | 通信网络               | 全行业标准     | 互联网协议       |
-| 标准文件 | Recommendation         | ISO标准        | RFC              |
-| 代表成果 | H.264、H.265           | ISO9001、27001 | TCP/IP、HTTP     |
-| 参与方式 | 成员单位               | 国家标准机构   | 任何人可参与     |
+- [FFmpeg](https://www.ffmpeg.org/)
 
-------
+### 基于GPU的硬编解码
 
-## 在视频监控行业中的关系
+[华为基础软件开发平台](https://www.hiascend.com/)
 
-```
-             ISO
-              │
-      软件质量/安全管理
-              │
+![](https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/5fd744b2136e8b45cdbad28f8e8f809b436630cd/src/.vuepress/public/images/tutorial/1.png)
 
-IETF ─────── ONVIF ─────── ITU-T
- │                           │
-RTSP                       H.264
-RTP                        H.265
-HTTP                       视频编码
-SIP                        QoS
-TLS                        传输优化
-```
+[寒武纪基础软件开发平台](https://developer.cambricon.com/)
 
-对于安防监控、视频会议、直播流媒体领域：
+![](https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/5fd744b2136e8b45cdbad28f8e8f809b436630cd/src/.vuepress/public/images/tutorial/2.png)
 
-- **ITU-T** 负责视频编码标准（H.264/H.265/H.266）
-- **IETF** 负责网络传输协议（RTP/RTSP/SIP/WebRTC）
-- **ISO** 负责软件工程、信息安全和质量体系标准
+[英伟达基础软件开发平台](https://www.nvidia.com/)
 
-三者共同构成了现代互联网视频产业的标准基础设施。
+![](https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/5fd744b2136e8b45cdbad28f8e8f809b436630cd/src/.vuepress/public/images/tutorial/3.png)
 
-## 关于安博会
+## 音视频行业发展
 
-[中国国际社会公共安全产品博览会](https://www.securitychina.com.cn/)（简称“安博会”, 英文“Security China”）由中华人民共和国商务部批准，中国安全防范产品行业协会主办并承办。安博会自1994年创办以来，历经三十余载的砥砺发展，十七届的辉煌历程，服务上万家参展商，专业观众达百万人次，被誉为全国乃至国际安防行业发展的晴雨表和风向标。
+### 电信行业的变革
+
+从1G语音、2G短信、3G图片语音、4G视频到5G未来可期的新时代，见证了音视频行业的磅礴发展。
+
+![](https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/5fd744b2136e8b45cdbad28f8e8f809b436630cd/src/.vuepress/public/images/tutorial/4.png)
+
+
+
+### 音视频技术优势
+
+技术更新慢，技术门槛高，大部分技术沿用至今，依然保持生命力，技术人员成型时间较长，以音视频常见的标准协议和开源项目为例，每个开源项目之所以能成功都是经过了开发者长期的时间投入。
+
+### 标准协议发展历程
+
+- 1980年 UDP用户数据报文协议\(User Datagram Protocol\)
+
+- 1981年 TCP传输控制协议\(Transmission Control Protocol\)
+
+- 1996年 RTP实时传输协议\(Real\-time Transport Protocol\)
+
+- 1996年 RTCP控制协议\(RTP Control Protocol\)
+
+- 1998年 RTSP实时流传输协议\(Real Time Streaming Protocol\)
+
+- 2003年 H264视频编解码
+
+- 2006年 NACK负向反馈\(Negative Acknowledgement\)，接收方只有在没有收到数据的时候才通知发送方rfc4585
+
+- 2008年 FLV流媒体格式\(Flash Video\)
+
+- 2009年 HLS基于HTTP的自适应码率流媒体传输协议\(HTTP Live Streaming\)
+
+- 2009年 WebRTC网页即时通信\(Web Real\-Time Communication\)
+
+- 2012年 RTMP实时消息传输协议\(Real Time Messaging Protocol\)
+
+- 2013年 H265视频编解码
+
+- 2020年 H266视频编解码
+
+- \.\.\.\.\.\.
+
+
+
+### 音视频应用场景
+
+![](https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/5fd744b2136e8b45cdbad28f8e8f809b436630cd/src/.vuepress/public/images/tutorial/5.png)
+
+
+
+### 音视频业务企业
+
+![](https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/5fd744b2136e8b45cdbad28f8e8f809b436630cd/src/.vuepress/public/images/tutorial/6.png)
 

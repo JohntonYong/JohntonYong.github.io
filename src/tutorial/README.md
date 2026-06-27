@@ -4,291 +4,11 @@ icon: lightbulb
 ---
 # 快速开始
 
-## C\+\+工程化实践指南
+## 关于安博会
 
-### 工程化背景介绍
+[中国国际社会公共安全产品博览会](https://www.securitychina.com.cn/)（简称“安博会”, 英文“Security China”）由中华人民共和国商务部批准，中国安全防范产品行业协会主办并承办。安博会自1994年创办以来，历经三十余载的砥砺发展，十七届的辉煌历程，服务上万家参展商，专业观众达百万人次，被誉为全国乃至国际安防行业发展的晴雨表和风向标。
 
-”C\+\+工程化实践指南“ 是一个帮助CPPer理解如何快速高效走上C/C\+\+软件开发之路的项目。
-
-本项目主要聚焦在音视频行业，分享的内容包括但不限于监控，直播，点播，会议，网络电话等企业级项目，项目基础知识涉及计算机组成原理，操作系统，数据结构，计算机网络等专业核心课程。
-
-### 工程化基础工具
-
-#### 编程基础
-
-- C和指针
-
-- C\+\+ Primer
-
-  ......
-
-#### 编程进阶
-
-- 深度探索C\+\+对象模型
-
-- Unix环境高级编程
-
-- Linux多线程服务端编程
-
-- Linux高性能服务器编程
-
-  ......
-
-#### 语言标准工具
-
-- [C/C\+\+ 标准库](https://en.cppreference.com/)
-
-#### 代码阅读工具
-
-- [Source Insight](https://www.sourceinsight.com/)
-
-- [Visual Studio Code](https://code.visualstudio.com/)
-
-#### 代码管理工具
-
-- [git官网](https://git-scm.com/)
-
-- [svn官网](https://tortoisesvn.net/)
-
-#### 代码构建工具
-
-- [cmake官网](https://cmake.org/)
-
-#### 网络调试工具
-
-- [wireshark官网](https://www.wireshark.org/)
-
-#### API网络工具
-
-- [ApiPost官网](https://www.apipost.cn/)
-
-- [ApiFox官网](https://apifox.com/)
-
-#### 命令行工具
-
-- [MobaxTerm官网](https://mobaxterm.mobatek.net/)
-
-- [XSHELL官网](https://www.xshell.com/zh/xshell/)
-
-#### 代码比较工具
-
-- [Beyond Compare官网](https://www.scootersoftware.com/)
-
-#### 开源基础库
-
-- [libuv](https://github.com/libuv/libuv.git)
-- [muduo](https://github.com/chenshuo/muduo.git)
-- [libhv](https://github.com/ithewei/libhv.git)
-- [evpp](https://github.com/Qihoo360/evpp.git)
-- [ZLToolKit](https://github.com/ZLMediaKit/ZLToolKit.git)
-
-## GNU操作系统 
-
-[GNU 是一个类 Unix 操作系统](https://www.gnu.org/)。它是由多个应用程序、系统库、开发工具乃至游戏构成的程序集合。GNU 的开发始于 1984 年 1 月，称为 GNU 工程。GNU 的许多程序在 GNU 工程下发布；我们称之为 [GNU 软件包](https://www.gnu.org/software/)。
-
-“GNU”这个名字是“GNU's Not Unix”的递归首字母缩写词。"GNU"的发音为*g'noo*，只有一个音节，发音很像“grew”，但需要把其中的*r*音替换为*n*音。
-
-类 Unix 操作系统中用于资源分配和硬件管理的程序称为 “内核”。GNU 所用的典型内核是 Linux。该组合叫做 [GNU/Linux 操作系统](https://www.gnu.org/gnu/linux-and-gnu.html)。GNU/Linux 为几百万用户所使用，然而许多人 [错误地称之为 "Linux](https://www.gnu.org/gnu/gnu-linux-faq.html)"。
-
-GNU 自己的内核，[GNU Hurd](https://www.gnu.org/software/hurd/hurd.html)，开始于 1990 年（早于 Linux）。志愿者们仍在继续开发 Hurd，因为它是一个有趣的技术项目。
-
-## GNU 编译链工具
-
-[linaro官网](https://www.linaro.org/)和[ARM交叉编译工具链](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads)
-
-Linora作为交叉编译器工具链的代表，常被用于嵌入式系统的开发，特别是在ARM架构设备的程序编译场景中。
-
-[loongson官网](https://www.loongson.cn/)和[LoongArch交叉编译工具链](https://www.loongnix.cn/zh/toolchain/GNU/)
-
-龙芯是中国自主研发的CPU企业，专注于高性能处理器设计与生态建设，[LoongArch™](https://www.loongson.cn/system/loongarch)：
-
-Windows下的 [轻量级 Unix\-like 环境](https://www.msys2.org/),主要用于开发和运行Linux/Unix 软件，搭配mingw\-w64 GCC编译链使用，可将openssl和ffmpeg开源项目轻松编译出windows下的工具库。
-
-## 中国开源镜像站
-
-https://mirrors\.nju\.edu\.cn/gnu/
-
-http://mirrors\.nju\.edu\.cn/gnu/
-
-https://mirrors\.nju\.edu\.cn/gnu\-alpha/
-
-http://mirrors\.nju\.edu\.cn/gnu\-alpha/
-
-https://mirrors\.ustc\.edu\.cn/gnu/
-
-http://mirrors\.ustc\.edu\.cn/gnu/
-
-https://mirrors\.tuna\.tsinghua\.edu\.cn/gnu/
-
-## GNU/Linux系统
-
-[Ubuntu](https://cn.ubuntu.com/)
-
-[Centos](https://www.centos.org/)
-
-[Loongnix](https://www.loongeco.cn/software/system)
-
-## 音视频相关开源项目
-
-- 1992年opengl开源项目发布
-
-- https://www\.opengl\.org/
-
-- 1996年gnu自由软件操作系统
-
-- https://www\.gnu\.org/
-
-- 1998年sdl多媒体开源项目发布
-
-- https://www\.libsdl\.org/
-
-- 1998年openssl开源项目发布
-
-- https://www\.openssl\.org/
-
-- 1999年opencv开源项目发布
-
-- https://opencv\.org/
-
-- 2001年 ffmpeg多媒体视频处理开源项目
-
-- https://ffmpeg\.org/
-
-- 2001年gstreamer多媒体开源框架发布
-
-- https://gstreamer\.freedesktop\.org/
-
-- 2002年live555开源项目发布
-
-- http://live555\.com/
-
-- 2004年nginx开源项目发布
-
-- https://nginx\.org/en/
-
-- 2005年kamailio开源项目发布 
-
-- https://www\.kamailio\.org/
-
-- 2006年freeswitch开源电话软交换平台发布
-
-- https://signalwire\.com/freeswitch
-
-- 2009年vlc播放器1\.0\.0 正式版发布
-
-- https://www\.videolan\.org/vlc/
-
-- 2009年libyuv图像处理库开源项目发布
-
-- https://chromium\.googlesource\.com/libyuv/libyuv/
-
-- 2009年 webrtc开源项目发布
-
-- 国外镜像：https://webrtc\.org/?hl=zh\-cn
-
-- 国内镜像：https://webrtc\.org\.cn/
-
-- 2013年 srs流媒体服务器发布版本
-
-- https://ossrs\.io/lts/zh\-cn/
-
-- 2013年 ijkplayer手机播放器发布
-
-- https://github\.com/bilibili/ijkplayer
-
-- 2014年 obs开源项目
-
-- https://obsproject\.com/
-
-- 2015年 janus流媒体服务器发布版本
-
-- https://janus\.conf\.meetecho\.com/
-
-- 2017年 zlmediakit流媒体服务器发布版本
-
-- https://docs\.zlmediakit\.com/
-
-- 2019年 open webrtc toolkit 
-
-- https://github\.com/open\-webrtc\-toolkit
-
-## 音视频编解码介绍
-
-### 基于CPU的软编解码
-
-- [FFmpeg](https://www.ffmpeg.org/)
-
-### 基于GPU的硬编解码
-
-[华为基础软件开发平台](https://www.hiascend.com/)
-
-![](https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/5fd744b2136e8b45cdbad28f8e8f809b436630cd/src/.vuepress/public/images/tutorial/1.png)
-
-[寒武纪基础软件开发平台](https://developer.cambricon.com/)
-
-![](https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/5fd744b2136e8b45cdbad28f8e8f809b436630cd/src/.vuepress/public/images/tutorial/2.png)
-
-[英伟达基础软件开发平台](https://www.nvidia.com/)
-
-![](https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/5fd744b2136e8b45cdbad28f8e8f809b436630cd/src/.vuepress/public/images/tutorial/3.png)
-
-## 音视频行业发展
-
-### 电信行业的变革
-
-从1G语音、2G短信、3G图片语音、4G视频到5G未来可期的新时代，见证了音视频行业的磅礴发展。
-
-![](https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/5fd744b2136e8b45cdbad28f8e8f809b436630cd/src/.vuepress/public/images/tutorial/4.png)
-
-
-
-### 音视频技术优势
-
-技术更新慢，技术门槛高，大部分技术沿用至今，依然保持生命力，技术人员成型时间较长，以音视频常见的标准协议和开源项目为例，每个开源项目之所以能成功都是经过了开发者长期的时间投入。
-
-### 标准协议发展历程
-
-- 1980年 UDP用户数据报文协议\(User Datagram Protocol\)
-
-- 1981年 TCP传输控制协议\(Transmission Control Protocol\)
-
-- 1996年 RTP实时传输协议\(Real\-time Transport Protocol\)
-
-- 1996年 RTCP控制协议\(RTP Control Protocol\)
-
-- 1998年 RTSP实时流传输协议\(Real Time Streaming Protocol\)
-
-- 2003年 H264视频编解码
-
-- 2006年 NACK负向反馈\(Negative Acknowledgement\)，接收方只有在没有收到数据的时候才通知发送方rfc4585
-
-- 2008年 FLV流媒体格式\(Flash Video\)
-
-- 2009年 HLS基于HTTP的自适应码率流媒体传输协议\(HTTP Live Streaming\)
-
-- 2009年 WebRTC网页即时通信\(Web Real\-Time Communication\)
-
-- 2012年 RTMP实时消息传输协议\(Real Time Messaging Protocol\)
-
-- 2013年 H265视频编解码
-
-- 2020年 H266视频编解码
-
-- \.\.\.\.\.\.
-
-
-
-### 音视频应用场景
-
-![](https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/5fd744b2136e8b45cdbad28f8e8f809b436630cd/src/.vuepress/public/images/tutorial/5.png)
-
-
-
-### 音视频业务企业
-
-![](https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/5fd744b2136e8b45cdbad28f8e8f809b436630cd/src/.vuepress/public/images/tutorial/6.png)
-
-## 国内监控主流厂商
+## 国内安防主流厂商
 
 ### 海康威视
 
@@ -308,22 +28,87 @@ SDK链接：https://support\.dahuatech\.com/sdkindex/sdkExploit
 
 SDK链接：https://unisee\.uniview\.com/zh/home/resource
 
-## 国内会议主流厂商
+## 关于厂商网络设备SDK
+网络设备SDK是基于设备私有网络通信协议开发的，为嵌入式网络硬盘录像机、NVR、网络摄像机、网络球机、视频服务器、解码器、报警主机、网络存储等产品服务的配套模块，用于远程访问和控制设备软件的二次开发。
 
-### 腾讯会议
+### SDK支持的系统说明
 
-官方网站：https://cloud\.tencent\.com/
+**Windows 32位网络设备SDK：**
 
-SDK链接：https://cloud.tencent.com/document/product/647/32689
+- Windows 8/Windows 7/Vista/XP以及Windows Server 2012/2008/2003 
 
-### 网易会议
+**Windows 64位网络设备SDK：**
 
-官方网站：https://yunxin.163.com/nrtc
+- Windows 10/Windows 8/Windows 7以及Windows Server 2012/2008 
 
-SDK链接：https://doc.yunxin.163.com/meeting/resource
+**Linux 32位网络设备SDK：**
 
-### 讯飞会议
+- GCC版本要求大于等于4.1.2
+- 支持系统：CentOS 5.4、Redhat AS5.4 、ubuntu 9.10、Fedora12及以上版本 
 
-官方网站：https://meeting.iflyrec.com/
+**Linux 64位网络设备SDK：**
 
-SDK链接：https://meeting.iflyrec.com/download
+- GCC版本要求大于等于4.1.2
+- 支持系统：CentOS 5.4、Redhat AS5.4 、SUSE10及以上版本
+
+## 本项目开发环境
+
+- 开发工具 Visual Studio *2008*
+
+- 调试环境 Win32
+- 生产环境 Red Hat Enterprise Linux Server release 6.5 (Santiago)
+- gcc 版本 4.4.7 20120313 (Red Hat 4.4.7-4) (GCC)
+- GNU Make 3.81
+- cmake version 2.6-patch 4
+
+## 自研网络设备SDK
+
+### 自研初衷
+
+- 由于历史原因，大规模视频监控2.0平台开发部署于Linux i686 Architecture，头部厂商宇视科技不提供Linux 32位网络设备SDK，设备无法接入平台。
+
+- 厂商官方提供的网络设备SDK，部分接口存在问题，需要实际项目驱动设备厂家提供技术支持，这对个人开发者来说很不友好。
+
+- 个人尽管购买厂商网络设备，原则上可以索要技术支持，但是从问题的反馈到解决流程耗时不可控，研发进度受阻。
+
+  <img src="https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/3825798bbfa2bf3d759f999a42f9381e4f127e44/src/.vuepress/public/images/tutorial/3.jpg" style="zoom:30%;" />
+
+- 大规模视频监控2.0平台只支持H.264 视频编码格式，升级到3.0平台后将全面支持H265/H264/AAC/G711/OPUS/等主流编解码器。
+
+- 作为深耕安防行业数十年的技术老兵， ONVIF、GB/T 28181、流媒体数据处理等环节已不陌生，希望积累的技术经验能够沉淀并付诸实践。
+
+  <img src="https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/3825798bbfa2bf3d759f999a42f9381e4f127e44/src/.vuepress/public/images/tutorial/4.jpg" style="zoom:30%;" />
+
+### 自研成果
+
+- STDevSDK，用于ONVIF协议与网络设备信令交互。
+- STDgbSDK，用于国标GB/T28181协议与网络设备信令交互。
+- STDavSDK，用于RTSP流媒体编码、解码、转码等数据处理。
+- CuiAppD，用于转封装后的RTP数据数据发送和Restful信令处理。
+
+## 大规模视频监控2.0平台演示
+
+### 设备管理客户端
+
+<img src="https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/3825798bbfa2bf3d759f999a42f9381e4f127e44/src/.vuepress/public/images/tutorial/1.png" style="zoom:50%;" />
+
+### 显示控制客户端
+
+<img src="https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/3825798bbfa2bf3d759f999a42f9381e4f127e44/src/.vuepress/public/images/tutorial/2.png" style="zoom:50%;" />
+
+## 大规模视频监控3.0平台计划
+
+- 基于自研网络设备SDK提供全平台系统和架构能力。
+- 打通设备代理服务，流媒体服务，业务管理服务等核心模块。
+- 提供开放的客户端集成Restful API协议接口能力。
+- 考虑跨平台和通用性，目前只实现基于浏览器的Web客户端用于功能验证和效果展示。
+
+## 关于3.0平台开源共建
+
+欢迎感兴趣的小伙伴基于上述自研平台能力，共建客户端技术实践生态。
+
+- Windows 桌面端
+- Mac 桌面端
+- 手机移动端：安卓（Android）、苹果（Apple）、鸿蒙（Harmony OS）
+- 开源Linux 桌面端，代表系统Ubuntu
+- 国产化系统桌面端，代表系统麒麟（Kylin OS）、统信 （UOS）
