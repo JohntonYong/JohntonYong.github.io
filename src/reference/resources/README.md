@@ -4,82 +4,6 @@ icon: font-awesome
 index: true
 ---
 
-## C\+\+工程化实践指南背景介绍
-
-- 是一个帮助CPPer快速高效走上C/C\+\+软件开发之路的项目。
-
-- 本项目主要聚焦在音视频行业，分享的内容包括但不限于监控，直播，点播，会议，网络电话等企业级项目实践。
-
-### 工程化基础工具
-
-#### 编程基础
-
-- C和指针
-
-- C\+\+ Primer
-
-  ......
-
-#### 编程进阶
-
-- 深度探索C\+\+对象模型
-
-- Unix环境高级编程
-
-- Linux多线程服务端编程
-
-- Linux高性能服务器编程
-
-  ......
-
-#### 语言标准工具
-
-- [C/C\+\+ 标准库](https://en.cppreference.com/)
-
-#### 代码阅读工具
-
-- [Source Insight](https://www.sourceinsight.com/)
-
-- [Visual Studio Code](https://code.visualstudio.com/)
-
-#### 代码管理工具
-
-- [git官网](https://git-scm.com/)
-
-- [svn官网](https://tortoisesvn.net/)
-
-#### 代码构建工具
-
-- [cmake官网](https://cmake.org/)
-
-#### 网络调试工具
-
-- [wireshark官网](https://www.wireshark.org/)
-
-#### API网络工具
-
-- [ApiPost官网](https://www.apipost.cn/)
-
-- [ApiFox官网](https://apifox.com/)
-
-#### 命令行工具
-
-- [MobaxTerm官网](https://mobaxterm.mobatek.net/)
-
-- [XSHELL官网](https://www.xshell.com/zh/xshell/)
-
-#### 代码比较工具
-
-- [Beyond Compare官网](https://www.scootersoftware.com/)
-
-#### 开源基础库
-
-- [libuv](https://github.com/libuv/libuv.git)
-- [muduo](https://github.com/chenshuo/muduo.git)
-- [libhv](https://github.com/ithewei/libhv.git)
-- [evpp](https://github.com/Qihoo360/evpp.git)
-- [ZLToolKit](https://github.com/ZLMediaKit/ZLToolKit.git)
-
 ## GNU操作系统 
 
 [GNU 是一个类 Unix 操作系统](https://www.gnu.org/)。它是由多个应用程序、系统库、开发工具乃至游戏构成的程序集合。GNU 的开发始于 1984 年 1 月，称为 GNU 工程。GNU 的许多程序在 GNU 工程下发布；我们称之为 [GNU 软件包](https://www.gnu.org/software/)。
@@ -126,52 +50,6 @@ https://mirrors\.tuna\.tsinghua\.edu\.cn/gnu/
 
 [Loongnix](https://www.loongeco.cn/software/system)
 
-## 音视频相关开源项目
-
-- 1992年opengl开源项目发布 https://www\.opengl\.org/
-
-- 1996年gnu自由软件操作系统 https://www\.gnu\.org/
-
-- 1998年sdl多媒体开源项目发布 https://www\.libsdl\.org/
-
-- 1999年opencv开源项目发布 https://opencv\.org/
-
-- 2001年 ffmpeg多媒体视频处理开源项目 https://ffmpeg\.org/
-
-- 2001年gstreamer多媒体开源框架发布 https://gstreamer\.freedesktop\.org/
-
-- 2002年live555开源项目发布 http://live555\.com/
-
-- 2004年nginx开源项目发布 https://nginx\.org/en/
-
-- 2005年kamailio开源项目发布 https://www\.kamailio\.org/
-
-- 2006年freeswitch开源电话软交换平台发布 https://signalwire\.com/freeswitch
-
-- 2009年vlc播放器1\.0\.0 正式版发布 https://www\.videolan\.org/vlc/
-
-- 2009年libyuv图像处理库开源项目发布 https://chromium\.googlesource\.com/libyuv/libyuv/
-
-- 2009年 webrtc开源项目发布 国外镜像：https://webrtc\.org/?hl=zh\-cn
-
-- 国内镜像：https://webrtc\.org\.cn/ 2013年 srs流媒体服务器发布版本
-
-- https://ossrs\.io/lts/zh\-cn/
-
-- 2013年 ijkplayer手机播放器发布 https://github\.com/bilibili/ijkplayer
-
-- 2014年 obs开源项目 https://obsproject\.com/
-
-- 2015年 janus流媒体服务器发布版本 https://janus\.conf\.meetecho\.com/
-
-- 2017年 zlmediakit流媒体服务器发布版本 https://docs\.zlmediakit\.com/
-
-- 2019年 open webrtc toolkit https://github\.com/open\-webrtc\-toolkit
-
-## 加密库开源项目
-- openssl 开源项目 https://www\.openssl\.org/
-- gmssl   开源项目 http://gmssl\.org/
-
 ## 音视频编解码介绍
 
 ### 基于CPU的软编解码
@@ -199,8 +77,6 @@ https://mirrors\.tuna\.tsinghua\.edu\.cn/gnu/
 从1G语音、2G短信、3G图片语音、4G视频到5G未来可期的新时代，见证了音视频行业的磅礴发展。
 
 ![](https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/5fd744b2136e8b45cdbad28f8e8f809b436630cd/src/.vuepress/public/images/tutorial/4.png)
-
-
 
 ### 音视频技术优势
 
