@@ -1,5 +1,5 @@
 ---
-title: 相关书籍
+title: B站学院
 icon: font-awesome
 index: true
 ---

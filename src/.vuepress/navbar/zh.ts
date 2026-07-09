@@ -8,7 +8,7 @@ export const zhNavbar = navbar([
     text: "参考",
     icon: "lightbulb",
     prefix: "reference/",
-    children: ["resources","books","tools","projects"],
+    children: ["resources","tools","projects","school"],
   },
   {
     text: "了解更多",
