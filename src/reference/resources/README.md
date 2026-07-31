@@ -1,5 +1,5 @@
 ---
-title: 相关资源
+title: 科普知识
 icon: font-awesome
 index: true
 ---

@@ -1,5 +1,5 @@
 ---
-title: 开源项目
+title: 推荐开源
 icon: font-awesome
 index: true
 ---
