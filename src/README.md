@@ -38,7 +38,7 @@ highlights:
 
       - title: 多指令集平台支持
         icon: microchip
-        details: 支持多种指令集平台，如x86_64、aarch64、mipsel64、loongarch.
+        details: 支持多种指令集平台，如x86_64、aarch64、mipsel64、loongarch、risc-v.
 
       - title: 用于集成的标准C API
         icon: code

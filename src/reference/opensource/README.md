@@ -1,11 +1,8 @@
 ---
-title: 推荐开源
+title: 开源项目
 icon: font-awesome
 index: true
 ---
-
-## 操作系统
-- [GNU](https://www.gnu.org/)
 
 ## 基础库
 - [libuv](https://github.com/libuv/libuv.git)
@@ -19,9 +16,6 @@ index: true
 - [SDL](https://www.libsdl.org/)
 - [PortAudio](https://portaudio.com/)
 
-## 图像处理
-- [libyuv](https://chromium.googlesource.com/libyuv/libyuv/)
-
 ## 音视频框架
 - [WebRTC](https://webrtc.org/)
 - [OBS](https://obsproject.com/)
@@ -34,10 +28,6 @@ index: true
 - [OpenSSL](https://www.openssl.org/)
 - [GmSSL](http://gmssl.org/)
 
-## 编解码
-- [FFmpeg](https://ffmpeg.org/)
-- [GStream](https://gstreamer.freedesktop.org/)
-
 ## 流媒体服务
 - [LIVE555](http://live555.com/)
 - [NGINX](https://nginx.org/)
@@ -49,5 +39,3 @@ index: true
 - [OWT](https://github.com/open-webrtc-toolkit)
 - [MediaSoup](https://mediasoup.org/)
 
-## 计算机视觉
-- [OpenCV](https://opencv.org/)

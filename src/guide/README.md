@@ -47,6 +47,7 @@ icon: terminal
 - STDgbSDK，用于国标GB/T28181协议与网络设备信令交互。
 - STDavSDK，用于RTSP流媒体编码、解码、转码等数据处理。
 - CuiAppD，用于转封装后的RTP数据数据发送和Restful信令处理。
+- STDfsSDK，国产化视频抽帧工具链，详情参考 “免费专区”-“编码解码”模块。
 
 ## 大规模视频监控3.0平台计划
 
