@@ -41,6 +41,12 @@ RISC-V 及其生态系统提供了一个开放、可扩展的指令集架构，�
 
 Windows下的 [轻量级 Unix\-like 环境](https://www.msys2.org/),主要用于开发和运行Linux/Unix 软件，搭配mingw\-w64 GCC编译链使用，可将openssl和ffmpeg开源项目轻松编译出windows下的工具库。
 
+## GCC, the GNU Compiler Collection
+
+[gcc官网](https://gcc.gnu.org/)
+
+## C/C++程序从源码到执行中间发生了什么？
+<img src="https://github.com/JohntonYong/JohntonYong.github.io/blob/main/src/.vuepress/public/images/reference/7.png?raw=true" style="zoom:50%;" />
 
 ## 中国开源镜像站
 
