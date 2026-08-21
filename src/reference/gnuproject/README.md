@@ -44,6 +44,7 @@ Windows下的 [轻量级 Unix\-like 环境](https://www.msys2.org/),主要用于
 ## GCC, the GNU Compiler Collection
 
 [gcc官网](https://gcc.gnu.org/)
+GNU 编译器集合 (GCC) 包含C、 C++、Objective-C、Objective-C++、Fortran 、Ada、Go、D、Modula-2、COBOL、Rust 和 Algol 68的前端 ，以及这些语言的库（例如 libstdc++ 等）。GCC 最初是作为GNU 操作系统的编译器而编写的。GNU 系统被开发为 100% 自由软件，这里的“自由”指的是它尊重用户的自由。
 
 ## C/C++程序从源码到执行中间发生了什么？
 <img src="https://github.com/JohntonYong/JohntonYong.github.io/blob/main/src/.vuepress/public/images/reference/7.png?raw=true" style="zoom:50%;" />
