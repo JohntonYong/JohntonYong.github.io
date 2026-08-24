@@ -31,45 +31,7 @@ OpenCV（Open Source Computer Vision Library）是目前全球使用最广泛的
 ## 典型视觉AI流程
 例如：
 
-IPC摄像头 → 人脸识别 / 目标检测 / 车牌识别
-                 Camera IPC
-                    |
-                    |
-                 RTSP流
-                    |
-                    |
-              FFmpeg/GStreamer
-              (视频解码)
-                    |
-                    |
-                OpenCV
-        (图像处理/预处理)
-                    |
-        +-----------+-----------+
-        |                       |
-     Resize                 Normalize
-        |                       |
-        +-----------+-----------+
-                    |
-                    |
-              Tensor输入
-                    |
-                    |
-        +----------------------+
-        |                      |
-   ONNX Runtime          OpenVINO Runtime
-        |                      |
-        |                      |
-      YOLO              OpenVINO YOLO
-        |
-        |
-    AI推理结果
-        |
-        |
- +------+------+------+
- |             |      |
- 人          车      车牌
- 检测        检测    OCR
+<img src="https://github.com/JohntonYong/JohntonYong.github.io/blob/main/src/.vuepress/public/images/reference/10.png?raw=true" style="zoom:100%;" />
 
 
 ## 音频算法
@@ -96,51 +58,7 @@ IPC摄像头 → 人脸识别 / 目标检测 / 车牌识别
 AEC负责消回声，AINS负责智能降噪，AGC负责音量稳定。未来趋势不是AI替代全部3A，而是“传统AEC/AGC + AI ANS”的混合架构。
 
 ### 典型听觉AI流程
-例如：
-
-麦克风 → 回声消除 → AI降噪 → 语音编码
-                 Microphone
-                      |
-                      |
-                   PCM数据
-                      |
-                      |
-              音频前处理(Audio DSP)
-                      |
-        +-------------+-------------+
-        |             |             |
-       AEC           ANS           AGC
-   回声消除       噪声抑制       自动增益
-        |
-        |
-     Clean PCM
-        |
-        |
-    音频特征提取
-        |
-        |
-      STFT
-   (时频转换)
-        |
-        |
-    Tensor输入
-        |
-        |
- +----------------------------+
- |                            |
-ONNX Runtime             OpenVINO Runtime
- |                            |
-DPCRN                  DeepFilterNet
-AI-NS                  AI-NS
- |
- |
-增强语音
- |
- |
-Opus编码
- |
- |
-网络传输
+<img src="https://github.com/JohntonYong/JohntonYong.github.io/blob/main/src/.vuepress/public/images/reference/9.png?raw=true" style="zoom:100%;" />
 
 ## 安防场景中音视频AI项目中的推荐组合
              摄像头RTSP混合流
