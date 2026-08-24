@@ -26,9 +26,6 @@ GNU 自己的内核，[GNU Hurd](https://www.gnu.org/software/hurd/hurd.html)，
 
 [Loongnix](https://www.loongeco.cn/software/system)
 
-## CPU Arch
-<img src="https://github.com/JohntonYong/JohntonYong.github.io/blob/main/src/.vuepress/public/images/reference/8.png?raw=true" style="zoom:100%;" />
-
 ## GNU/Linux Toolchain
 
 [linaro官网](https://www.linaro.org/)和[ARM交叉编译工具链](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads)
@@ -53,16 +50,7 @@ GNU 编译器集合 (GCC) 包含C、 C++、Objective-C、Objective-C++、Fortran
 <img src="https://github.com/JohntonYong/JohntonYong.github.io/blob/main/src/.vuepress/public/images/reference/7.png?raw=true" style="zoom:100%;" />
 
 ## CPU Arch
-
-| 架构              | 类型   | 位宽         | 出现时间                       | 主要来源              | 当前主要领域             | 开放性           | 常见 GCC 工具链前缀                                  |
-| --------------- | ---- | ---------- | -------------------------- | ----------------- | ------------------ | ------------- | --------------------------------------------- |
-| x86 / x86-64    | CISC | 32/64位     | 1978（8086）<br>2003（x86-64） | Intel / AMD       | PC、工作站、服务器         | 封闭            | `x86_64-linux-gnu-`                           |
-| AArch64 (ARM64) | RISC | 64位        | 2011（ARMv8）                | ARM               | 手机、嵌入式、服务器         | 授权            | `aarch64-linux-gnu-`                          |
-| RISC-V          | RISC | 32/64/128位 | 2010                       | UC Berkeley       | MCU、IoT、AI边缘、国产CPU | 开放            | `riscv64-linux-gnu-`                          |
-| LoongArch       | RISC | 64位        | 2020                       | 龙芯                | 国产桌面、服务器、工控        | 自主            | `loongarch64-linux-gnu-`                      |
-| MIPS            | RISC | 32/64位     | 1985                       | MIPS Technologies | 路由器、嵌入式、机顶盒、老设备    | 授权/部分开放       | `mips-linux-gnu-`<br>`mips64-linux-gnuabi64-` |
-| MIPS-Loongson   | RISC | 64位        | 2002（龙芯1号）                 | 龙芯（基于 MIPS64 扩展）  | 早期国产桌面、服务器、工控、科研设备 | 自主扩展（兼容 MIPS） | `mips64el-linux-gnuabi64-`                    |
-
+<img src="https://github.com/JohntonYong/JohntonYong.github.io/blob/main/src/.vuepress/public/images/reference/8.png?raw=true" style="zoom:100%;" />
 
 ## 中国开源镜像站
 

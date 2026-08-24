@@ -16,8 +16,8 @@ export const zhNavbar = navbar([
     prefix: "more/",
     children: [
       "contact",
-      "av-history",
-      "future-2026"
+      "history",
+      "future"
     ],
   },
 ]);
