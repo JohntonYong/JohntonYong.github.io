@@ -52,10 +52,9 @@ GNU 编译器集合 (GCC) 包含C、 C++、Objective-C、Objective-C++、Fortran
 ## CPU Arch
 <img src="https://github.com/JohntonYong/JohntonYong.github.io/blob/main/src/.vuepress/public/images/reference/8.png?raw=true" style="zoom:100%;" />
 
-## 常见的汇编工具官网
-- [NASM](https://github.com/netwide-assembler/nasm) (Netwide Assembler)：广泛用于 x86 架构的汇编器。
-- [YASM](https://github.com/yasm/yasm) (Yasm Assembler): 广泛用于x86 和 AMD64架构的汇编器。
+## 主流汇编器比较
 - [Compiler Explorer](https://godbolt.org/)：一个可以实时查看 C++、Rust 等代码生成汇编结果的在线工具。
+<img src="https://github.com/JohntonYong/JohntonYong.github.io/blob/main/src/.vuepress/public/images/reference/10.png?raw=true" style="zoom:100%;" />
 
 ## 中国开源镜像站
 
