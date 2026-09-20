@@ -17,7 +17,8 @@ export const zhNavbar = navbar([
     children: [
       "contact",
       "history",
-      "future"
+      "future",
+	  "kernel"
     ],
   },
 ]);
