@@ -14,19 +14,13 @@ icon: lightbulb
 
 官方网站：https://www\.hikvision\.com/
 
-SDK链接：https://open\.hikvision\.com/download/5cda567cf47ae80dd41a54b3?type=10
-
 ### 大华股份
 
 官方网站：https://www\.dahuatech\.com/
 
-SDK链接：https://support\.dahuatech\.com/sdkindex/sdkExploit
-
 ### 宇视科技
 
 官方网站：https://cn\.uniview\.com/
-
-SDK链接：https://unisee\.uniview\.com/zh/home/resource
 
 ## 关于厂商网络设备SDK
 网络设备SDK是基于设备私有网络通信协议开发的，为嵌入式网络硬盘录像机、NVR、网络摄像机、网络球机、视频服务器、解码器、报警主机、网络存储等产品服务的配套模块，用于远程访问和控制设备软件的二次开发。
