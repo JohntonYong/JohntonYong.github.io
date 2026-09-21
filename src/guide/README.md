@@ -21,7 +21,7 @@ icon: terminal
 
 - 国内外主流品牌**厂商**SDK接入平台
 
-- 国内外主流品牌**自研**SDK接入平台
+- 国内外主流品牌**通用**SDK接入平台
 
 ## 自研网络设备SDK
 
@@ -35,9 +35,9 @@ icon: terminal
 
   <img src="https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/3825798bbfa2bf3d759f999a42f9381e4f127e44/src/.vuepress/public/images/tutorial/3.jpg" style="zoom:30%;" />
 
-- 大规模视频监控2.0平台只支持H.264 视频编码格式，升级到3.0平台后将全面支持H265/H264/AAC/G711/OPUS/等主流编解码器。
+- 大规模视频监控2.0平台只支持H.264 视频编码格式，升级到3.0平台后将全面支持H265/H264/AAC/G711/OPUS等主流编解码器。
 
-- 作为深耕安防行业数十年的技术老兵， ONVIF、GB/T 28181、流媒体数据处理等环节已不陌生，希望积累的技术经验能够沉淀并付诸实践。
+- 作为深耕安防行业数十年的技术老兵， ONVIF和GB/T 28181信令和流媒体数据处理等环节已不陌生，希望积累的技术经验能够沉淀并付诸实践。
 
   <img src="https://raw.githubusercontent.com/JohntonYong/JohntonYong.github.io/3825798bbfa2bf3d759f999a42f9381e4f127e44/src/.vuepress/public/images/tutorial/4.jpg" style="zoom:30%;" />
 
@@ -45,9 +45,9 @@ icon: terminal
 
 - STDevSDK，用于ONVIF协议与网络设备信令交互。
 - STDgbSDK，用于国标GB/T28181协议与网络设备信令交互。
-- STDavSDK，用于RTSP流媒体编码、解码、转码、转封装等数据处理。
+- STDavSDK，用于RTSP流媒体进行CPU编码、解码、转码、转封装等数据处理。
+- STDhwSDK，用于RTSP流媒体进行GPU编码、解码等数据处理，支持但不限于英伟达，寒武纪，华为昇腾以及英特尔等。
 - CuiAppD，用于转封装后的RTP数据数据发送和Restful信令处理。
-- STDfsSDK，国产化视频硬解码抽帧工具链。
 
 ## 大规模视频监控3.0平台计划
 
@@ -56,7 +56,7 @@ icon: terminal
 - 提供开放的客户端集成Restful API协议接口能力。
 - 考虑跨平台和通用性，目前只实现基于浏览器的Web客户端用于功能验证和效果展示。
 
-## 关于3.0平台客户端支持私有化授权开发
+## 关于3.0平台客户端支持私有化授权配套开发
 - 浏览器客户端
 - Windows 桌面端
 - Mac 桌面端

@@ -18,7 +18,7 @@ actions:
 
 highlights:
   - header: 特性
-    description: 该项目是一个商用级安防行业音视频解决方案,其中包括跨平台支持以及网络编程二次开发SDK.
+    description: 该项目是一个商用级安防行业音视频解决方案,其中包括跨平台支持以及网络编程二次开发SDK
     image: /assets/image/features.svg
     bgImageStyle:
       background-repeat: repeat
@@ -26,35 +26,35 @@ highlights:
     features:
       - title: 支持多厂商
         icon: box-archive
-        details: 支持国内外主流厂商IPC包括但不限于海康/大华/宇视/华为/科达/天地伟业/蛙视/安讯视/博士/索尼等.
+        details: 支持国内外主流厂商IPC包括但不限于海康/大华/宇视/华为/科达/天地伟业/蛙视/安讯视/博士/索尼等
 
       - title: 稳定可靠的生产环境使用
         icon: microscope
-        details: 代码经过广泛的稳定性和性能测试,在生产环境中得到广泛应用.
+        details: 代码经过广泛的稳定性和性能测试,在生产环境中得到广泛应用
 
       - title: 跨平台兼容性
         icon: linux
-        details: 支持包括Linux、macOS、iOS、Android、Windows、Kylin、UOS等国产化Linux Desktop在内的所有主要平台.
+        details: 支持包括Linux、macOS、iOS、Android、Windows、Kylin、UOS等国产化Linux Desktop在内的所有主要平台
 
       - title: 多指令集平台支持
         icon: microchip
-        details: 支持多种指令集平台，如x86_64、aarch64、mipsel64、loongarch、risc-v.
+        details: 支持多种指令集平台，如x86_64、aarch64、mipsel64、loongarch、risc-v
 
       - title: 用于集成的标准C API
         icon: code
-        details: 提供全面的自研标准C API,可用作SDK或被其他语言调用.
+        details: 提供全面的自研标准C API,可用作SDK或被其他语言调用
 
       - title: 自研标准协议SDK
         icon: video
-        details: 国标协议STDgbSDK/ONVIF协议STDevSDK/RFC流媒体协议STDavSDK.
+        details: 国标协议STDgbSDK/ONVIF协议STDevSDK/RFC流媒体协议STDavSDK
 
       - title: 完善的编解码器支持
         icon: box-open
-        details: 全面支持H265/H264/AAC/G711/OPUS/.
+        details: 全面支持H265/H264/AAC/G711/OPUS等
 
       - title: 持续扩展项目
         icon: magnifying-glass
-        details: 包括但不限于点播/直播/会议/网络电话等领域.
+        details: 包括但不限于点播/直播/会议/网络电话等领域
 
 copyright: false
 footer:

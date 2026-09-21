@@ -31,20 +31,3 @@ index: true
 ### 英伟达官方视频抽帧工具链
 [PyNvVideoCodec](https://docs.nvidia.com/video-technologies/pynvvideocodec/index.html)
 NVIDIA PyNvVideoCodec 提供了简洁的 API，方便 Python 在处理视频时利用视频编码和解码功能。PyNvVideoCodec 是一个库，它为 C++ API 提供了 Python 绑定，用于实现硬件加速的视频编码和解码。
-
-## 国产化视频抽帧工具链
-### 项目背景
-
-- 对于N卡，目前已经拥有官方PyNvVideoCodec了，为什么还需要开发自己的抽帧工具？出于训练的效率要求，PyNvVideoCodec是单进程同步阻塞API，自研抽帧工具需要能够多线程解码，充分利用GPU并行计算的能力。
-- 行车或泊车引擎需要调用C/C++接口的抽帧API进行视频数据处理。
-- 除了NVIDIA 官方提供了PyNvVideoCodec工具链，其他国内厂商如寒武纪和华为等没有官方配套工具链。
-
-### 项目特性
-- 支持基于寒武纪GPU
-- 支持基于华为GPU
-- 支持基于英伟达GPU
-- 支持基于英特尔GPU
-
-### 项目特点
-- 提供统一C API接口用于实现硬件加速的视频编码和解码。
-- 基于C API进行二次封装，支持不同语言环境下的编解码加速需求。
