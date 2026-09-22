@@ -5,7 +5,7 @@ icon: terminal
 
 ## 一个基于IPCamera的商用级安防行业音视频解决方案
 
-<img src="https://github.com/JohntonYong/JohntonYong.github.io/blob/main/src/.vuepress/public/images/guide/1.jpg?raw=true" style="zoom:100%;)
+<img src="https://github.com/JohntonYong/JohntonYong.github.io/blob/main/src/.vuepress/public/images/guide/1.jpg?raw=true" style="zoom:100%;" />
 
 ## 大规模视频监控2.0平台演示
 
@@ -77,4 +77,4 @@ icon: terminal
 
 持续聚焦于音视频领域的监控、点播、直播、会议，网络电话等产品开发实践。
 
-<img src="https://github.com/JohntonYong/JohntonYong.github.io/blob/main/src/.vuepress/public/images/guide/2.jpg?raw=true" style="zoom:100%;)
+<img src="https://github.com/JohntonYong/JohntonYong.github.io/blob/main/src/.vuepress/public/images/guide/2.jpg?raw=true" style="zoom:100%; />
