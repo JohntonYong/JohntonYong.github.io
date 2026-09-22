@@ -45,9 +45,9 @@ icon: terminal
 
 - STDevSDK，用于ONVIF协议与网络设备信令交互。
 - STDgbSDK，用于国标GB/T28181协议与网络设备信令交互。
-- STDavSDK，用于RTSP流媒体进行CPU编码、解码、转码、转封装等数据处理。
-- STDhwSDK，用于RTSP流媒体进行GPU编码、解码等数据处理，支持但不限于英伟达，寒武纪，华为昇腾以及英特尔等。
-- CuiAppD，用于转封装后的RTP数据数据发送和Restful信令处理。
+- STDavSDK，基于CPU进行编码、解码、转码、转封装、抽帧等数据处理。
+- STDhwSDK，基于GPU进行编码、解码、转码、转封装、抽帧等数据处理（包含但不限于英伟达，寒武纪，华为昇腾以及英特尔等）。
+- CuiAppD， 用于RTP/RTCP数据包和控制信令处理。
 
 ## 大规模视频监控3.0平台计划
 
