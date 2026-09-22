@@ -16,7 +16,7 @@ index: true
 - [SDL](https://www.libsdl.org/)
 - [PortAudio](https://portaudio.com/)
 
-## 音视频框架
+## 音视频客户端框架
 - [WebRTC](https://webrtc.org/)
 - [OBS](https://obsproject.com/)
 - [PJSIP](https://www.pjsip.org/)
@@ -30,12 +30,11 @@ index: true
 
 ## 流媒体服务
 - [LIVE555](http://live555.com/)
-- [NGINX](https://nginx.org/)
 - [Kamailio](https://www.kamailio.org/)
 - [FreeSWITCH](https://signalwire.com/freeswitch)
 - [SRS](https://ossrs.io/lts/zh-cn/)
 - [Janus](https://janus.conf.meetecho.com/)
 - [ZLMediaKit](https://docs.zlmediakit.com/)
-- [OWT](https://github.com/open-webrtc-toolkit)
-- [MediaSoup](https://mediasoup.org/)
 
+## 代理网关
+- [NGINX](https://nginx.org/)
