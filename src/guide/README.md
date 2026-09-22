@@ -5,17 +5,17 @@ icon: terminal
 
 ## 一个基于IPCamera的商用级安防行业音视频解决方案
 
-![](https://github.com/JohntonYong/JohntonYong.github.io/blob/main/src/.vuepress/public/images/guide/1.jpg)
+<img src="https://github.com/JohntonYong/JohntonYong.github.io/blob/main/src/.vuepress/public/images/guide/1.jpg?raw=true" style="zoom:100%;)
 
 ## 大规模视频监控2.0平台演示
 
 ### 设备管理客户端
 
-<img src="https://github.com/JohntonYong/JohntonYong.github.io/blob/main/src/.vuepress/public/images/tutorial/1.png" style="zoom:50%;" />
+<img src="https://github.com/JohntonYong/JohntonYong.github.io/blob/main/src/.vuepress/public/images/tutorial/1.png?raw=true" style="zoom:50%;" />
 
 ### 显示控制客户端
 
-<img src="https://github.com/JohntonYong/JohntonYong.github.io/blob/main/src/.vuepress/public/images/tutorial/2.png" style="zoom:50%;" />
+<img src="https://github.com/JohntonYong/JohntonYong.github.io/blob/main/src/.vuepress/public/images/tutorial/2.png?raw=true" style="zoom:50%;" />
 
 ### 项目特点
 
@@ -33,13 +33,13 @@ icon: terminal
 
 - 个人尽管购买厂商网络设备，原则上可以索要技术支持，但是从问题的反馈到解决流程耗时不可控，研发进度受阻。
 
-  <img src="https://github.com/JohntonYong/JohntonYong.github.io/blob/main/src/.vuepress/public/images/tutorial/3.jpg" style="zoom:30%;" />
+  <img src="https://github.com/JohntonYong/JohntonYong.github.io/blob/main/src/.vuepress/public/images/tutorial/3.jpg?raw=true" style="zoom:30%;" />
 
 - 大规模视频监控2.0平台只支持H.264 视频编码格式，升级到3.0平台后将全面支持H265/H264/AAC/G711/OPUS等主流编解码器。
 
 - 作为深耕安防行业数十年的技术老兵， ONVIF和GB/T 28181信令和流媒体数据处理等环节已不陌生，希望积累的技术经验能够沉淀并付诸实践。
 
-  <img src="https://github.com/JohntonYong/JohntonYong.github.io/blob/main/src/.vuepress/public/images/tutorial/4.jpg" style="zoom:30%;" />
+  <img src="https://github.com/JohntonYong/JohntonYong.github.io/blob/main/src/.vuepress/public/images/tutorial/4.jpg?raw=true" style="zoom:30%;" />
 
 ### 自研成果
 
@@ -77,4 +77,4 @@ icon: terminal
 
 持续聚焦于音视频领域的监控、点播、直播、会议，网络电话等产品开发实践。
 
-![](https://github.com/JohntonYong/JohntonYong.github.io/blob/main/src/.vuepress/public/images/guide/2.jpg)
+<img src="https://github.com/JohntonYong/JohntonYong.github.io/blob/main/src/.vuepress/public/images/guide/2.jpg?raw=true" style="zoom:100%;)
