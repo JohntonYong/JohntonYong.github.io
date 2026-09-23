@@ -2,12 +2,12 @@
 home: true
 icon: home
 title: 首页
-description: 一个基于IPCamera的C++工程化企业级实践指南.
+description: 基于IPCamera的企业级C++工程化实践指南.
 heroImage: /logo.png
 bgImageStyle:
   background-attachment: fixed
 heroText: C++工程化实践指南
-tagline: 一个基于IPCamera企业级工程化解决方案实践.
+tagline: 基于IPCamera企业级工程化解决方案.
 actions:
   - text: 免费专区💡
     link: ./reference/
@@ -18,7 +18,7 @@ actions:
 
 highlights:
   - header: 特性
-    description: 该项目是一个商用级安防行业音视频解决方案,其中包括跨平台支持以及网络编程二次开发SDK
+    description: 该项目是安防行业商用级音视频解决方案,其中包括跨平台支持以及网络编程二次开发SDK
     image: /assets/image/features.svg
     bgImageStyle:
       background-repeat: repeat
